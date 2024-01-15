@@ -7,6 +7,7 @@ from gemini import Gemini
 from search import Search
 from google.protobuf.json_format import MessageToDict
 
+
 e = os.environ
 PROJECT_ID = "hrc-jinjichatbot-poc"
 DATA_STORE_ID = "jinji_1701403523393"
