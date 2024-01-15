@@ -77,7 +77,7 @@ gcloud services enable compute.googleapis.com run.googleapis.com \
     artifactregistry.googleapis.com cloudbuild.googleapis.com
 ```
 
-### Cloud Runへデプロイ
+### Cloud Runへデプロイ 開発
 ```shell
 gcloud run deploy my-app --region "<リージョン>" --source . \
     --update-env-vars GOOGLE_CLOUD_PROJECT="<プロジェクトID>",MODEL_LOCATION="<リージョン>",DATA_STORE_ID="<データストアID>" 
