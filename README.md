@@ -83,5 +83,5 @@ gcloud run deploy my-app --region "<リージョン>" --source . \
     --update-env-vars GOOGLE_CLOUD_PROJECT="<プロジェクトID>",MODEL_LOCATION="<リージョン>",DATA_STORE_ID="<データストアID>" 
     --allow-unauthenticated --quiet
 
-### 2024/01/15開発
+### 2024/01/15 開発
 ```
